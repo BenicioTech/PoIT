@@ -1,0 +1,151 @@
+    1  exit
+    2  clear
+    3  ls
+    4  ifconfig
+    5  hostname
+    6  exit
+    7  clear
+    8  ls
+    9  clear
+   10  hostnamectl
+   11  nano /etc/hostname
+   12  clear
+   13  sudo nano /etc/hosts
+   14  clear
+   15  reboot
+   16  clear
+   17  ifconfig
+   18  ping google.com
+   19  shutdown -n
+   20  shutdown /?
+   21  man shutdown
+   22  shutdown -P
+   23  exit
+   24  clear
+   25  hostname
+   26  hostnamectl
+   27  nano /etc/hostname
+   28  clear
+   29  sudo nano /etc/hosts
+   30  clear
+   31  reboot
+   32  ls
+   33  clear
+   34  ifconfig
+   35  exit
+   36  clear
+   37  nano /etc/hostname
+   38  clear
+   39  sudo nano /etc/hosts
+   40  clear
+   41  reboot
+   42  ifconfig
+   43  exit
+   44  clear
+   45  ssh root@gateway
+   46  ssh-copy-id root@gateway
+   47  ssh root@gateway
+   48  exit
+   49  clear
+   50  nano /etc/hostname
+   51  clear
+   52  sudo nano /etc/hosts
+   53  clear
+   54  reboot
+   55  ifconfig
+   56  exit
+   57  clear
+   58  yum update
+   59  yum install htop
+   60  ping -c 1 8.8.8.8
+   61  figlet minix
+   62  apt-get figlet
+   63  apt install figlet
+   64  apt-get install figlet
+   65  yum install figlet
+   66  figlet Minix > .hidden
+   67  nano ~/.bashrc
+   68  nano ~/.bashrc | cat
+   69  cat ~/.hidden
+   70  figlet Legend27 > .hidden
+   71  cat ~/.hidden
+   72  figlet Legend_27 > .hidden
+   73  cat ~/.hidden
+   74  figlet Welcome Legend_27 > .hidden
+   75  clear
+   76  cat ~/.hidden
+   77  logout
+   78  nano ~/.bashrc
+   79  logout
+   80  cat ~/.bashrc
+   81  logout
+   82  useradd bsanchez
+   83  passwd bsanchez
+   84  logout
+   85  touch song1.mp3 song2.mp3 song3.mp3 song4.mp3 song5.mp3 song6.mp3
+   86  touch snap1.jpg snap2.jpg song3.jpg song4.jpg song5.jpg song6.jpg
+   87  touch film1.avi film2.avi film3.avi film4.avi film5.avi film6.avi
+   88  ls -l song1.mp3
+   89  mkdir Music
+   90  rmdir Music/
+   91  ls Mus
+   92  mkdir Music
+   93  mv song1.mp3 song2.mp3 song3.mp3 song4.mp3 song5.mp3 song6.mp3
+   94  mv song1.mp3 song2.mp3 song3.mp3 song4.mp3 song5.mp3 song6.mp3 Music/
+   95  mv
+   96  mkdir Pictures
+   97  mkdir Videos
+   98  mv film1.avi film2.avi film3.avi film4.avi film5.avi film6.avi Videos/
+   99  touch snap3.jpg snap4.jpg snap5.jpg snap6.jpg
+  100  mv snap1.jpg  snap2.jpg  snap3.jpg  snap4.jpg  snap5.jpg  snap6
+  101  mv snap1.jpg  snap2.jpg  snap3.jpg  snap4.jpg  snap5.jpg  snap6.jpg  Pictures/
+  102  ls -l
+  103  mkdir friends family work
+  104  rm song3.jpg song4.jpg  song5.jpg  song6.jpg
+  105  ls -l
+  106  cd friends/
+  107  cp ~/Music/song1.mp3 ~/Music/song2.mp3 ~/Pictures/
+  108  ls musi
+  109  ls music
+  110  cd ..
+  111  ls picture
+  112  ls Pictures/
+  113  ls Music/
+  114  cd friends/
+  115  mv ../Pictures/song1.mp3 ../Pictures/song2.mp3 ../Music/
+  116  ls Music/
+  117  cd ..
+  118  ls Pictures/
+  119  ls Music/
+  120  cd friends/
+  121  mv ../Pictures/song1.mp3 ../Pictures/song2.mp3 ../Music/
+  122  cd ..
+  123  ls Music/
+  124  ls Picture
+  125  ls Picture/
+  126  mv ../Pictures/song1.mp3 ../Pictures/song2.mp3 ../Music/
+  127  cd friends/
+  128  mv ../Pictures/song1.mp3 ../Pictures/song2.mp3 ../Music/
+  129  cd ..
+  130  ls Pictures/
+  131  ls Music/
+  132  cd friends/
+  133  cp ~/Music/song1.mp3 ~/Music/song2.mp3 ~/Pictures/snap1.jpg ~/Pictures/snap2.jpg ~/Videos/film1.avi ~/Videos/film2.avi .
+  134  ls -l
+  135  cd ../family/
+  136  cp ~/Music/song3.mp3 ~/Music/song4.mp3 ~/Pictures/snap3.jpg ~/Pictures/snap4.jpg ~/Videos/film3.avi ~/Videos/film4.avi .
+  137  ls -l
+  138  cd ../work/
+  139  cp ~/Music/song5.mp3 ~/Music/song6.mp3 ~/Pictures/snap5.jpg ~/Pictures/snap6.jpg ~/Videos/film5.avi ~/Videos/film6.avi .
+  140  ls -l
+  141  cd ..
+  142  rm -r family/ friends/
+  143  y
+  144  ls -l
+  145  cd work/
+  146  rm song5.mp3 song6.mp3 snap5.jpg snap6.jpg film5.avi film6.avi
+  147  cd ..
+  148  rmdir
+  149  rmdir work/
+  150  cat ~/.bash_history
+  151  history
